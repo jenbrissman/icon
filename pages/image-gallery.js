@@ -39,7 +39,6 @@ export default function ImageGallery() {
               key={i}
             >
               {/* Add the CldImage component here passing the following two props: `publicId` and `gallery`. `publicId` should have the value of `result.public_id` and `gallery` accepts a boolean, set it to `true`*/}
-              <CldImage publicId={result.public_id} gallery={true} />
             </div>
           );
         })}
